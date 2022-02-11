@@ -1,0 +1,4 @@
+# cloudflared service
+type = process
+command = /home/deve/dinit.d/scripts/cloudflared
+logfile = /home/deve/dinit.d/log/cloudflared.log

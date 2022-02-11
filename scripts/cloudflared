@@ -1,0 +1,4 @@
+#!/bin/bash
+
+export HOME=/home/deve
+cloudflared tunnel run

@@ -1,0 +1,6 @@
+# redis server
+
+type = process
+smooth-recovery = true
+command = redis-server
+logfile = /home/deve/dinit.d/log/redis.log

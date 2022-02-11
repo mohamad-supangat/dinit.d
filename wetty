@@ -1,0 +1,6 @@
+# wtty terminal emulator in web
+
+type = process
+smooth-recovery = true
+command = wetty -p 8022
+logfile = /home/deve/dinit.d/log/wtty.log

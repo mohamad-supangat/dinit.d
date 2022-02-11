@@ -1,0 +1,5 @@
+#!/bin/bash
+cd ~/web
+ls
+pwd
+sudo php -S 0.0.0.0:80 -t /home/deve/web

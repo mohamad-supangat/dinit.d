@@ -1,0 +1,6 @@
+# start php local server
+
+type = process
+smooth-recovery = true
+command = /home/deve/dinit.d/scripts/php-server
+logfile = /home/deve/dinit.d/log/php-server
