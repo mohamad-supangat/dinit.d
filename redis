@@ -3,4 +3,4 @@
 type = process
 smooth-recovery = true
 command = redis-server
-logfile = /home/deve/dinit.d/log/redis.log
+logfile = /var/log/dinit/redis.log
