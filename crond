@@ -2,5 +2,5 @@
 
 type = process
 smooth-recovery = true
-command = /usr/sbin/crond
+command = /usr/sbin/crond -n
 logfile = /var/log/dinit/crond.log
