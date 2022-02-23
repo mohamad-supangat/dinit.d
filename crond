@@ -1,0 +1,6 @@
+# cronie server
+
+type = process
+smooth-recovery = true
+command = /usr/sbin/crond
+logfile = /var/log/dinit/crond.log
