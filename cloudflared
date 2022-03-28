@@ -1,4 +1,4 @@
 # cloudflared service
 type = process
-command = /etc/dinit.d/scripts/cloudflared
+command = cloudflared --config /etc/cloudflared/config.yml tunnel run
 logfile = /var/log/dinit/cloudflared.log
