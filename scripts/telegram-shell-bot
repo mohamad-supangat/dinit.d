@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+node /root/shell-bot/server.js
