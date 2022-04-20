@@ -1,0 +1,12 @@
+type      = internal
+restart   = false
+waits-for = cleanup
+waits-for = binfmt
+waits-for = locale
+waits-for = net-lo
+waits-for = random-seed
+waits-for = swap
+waits-for = sysctl
+waits-for = sysusers
+waits-for = tmpfiles-setup
+waits-for = vconsole

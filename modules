@@ -1,0 +1,5 @@
+type      = scripted
+command   = /usr/bin/modules-load
+restart   = false
+waits-for = pseudofs
+waits-for = udev-settle

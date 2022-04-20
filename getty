@@ -1,0 +1,3 @@
+type        = internal
+waits-for.d = live.d
+waits-for.d = getty.d

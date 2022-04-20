@@ -1,0 +1,7 @@
+type         = scripted
+command      = /sbin/swapon -a
+stop-command = /sbin/swapoff -a
+depends-on   = root-rw
+depends-on   = udevd
+depends-on   = mount-all
+waits-for    = udev-settle

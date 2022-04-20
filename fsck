@@ -1,0 +1,8 @@
+type          = scripted
+command       = /sbin/fsck -A -R -C -a
+restart       = false
+options       = starts-on-console start-interruptible skippable
+start-timeout = 0
+depends-on    = udevd
+waits-for     = udev-settle
+waits-for.d   = mount.d

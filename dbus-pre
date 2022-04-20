@@ -1,0 +1,3 @@
+type    = scripted
+command = /etc/dinit.d/scripts/dbus-pre
+restart = false

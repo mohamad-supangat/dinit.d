@@ -1,0 +1,5 @@
+type      = scripted
+command   = /etc/dinit.d/scripts/vconsole
+restart   = false
+waits-for = hostname
+waits-for = udev-settle

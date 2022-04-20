@@ -1,0 +1,5 @@
+type            = process
+command         = /usr/bin/ntpd -g -u ntp:ntp -n
+smooth-recovery = true
+logfile         = /var/log/dinit/ntpd.log
+waits-for       = setup

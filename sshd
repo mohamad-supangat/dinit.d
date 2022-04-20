@@ -1,0 +1,4 @@
+type            = process
+command         = /etc/dinit.d/scripts/sshd
+smooth-recovery = true
+waits-for       = loginready

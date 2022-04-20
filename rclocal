@@ -1,0 +1,5 @@
+type         = scripted
+command      = /bin/sh /etc/dinit.d/config/rc.local
+stop-command = /bin/sh /etc/dinit.d/config/rc.shutdown
+restart      = false
+waits-for    = loginready

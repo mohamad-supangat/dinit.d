@@ -1,0 +1,4 @@
+type      = scripted
+command   = /usr/bin/ip link set up dev lo
+restart   = false
+waits-for = pseudofs

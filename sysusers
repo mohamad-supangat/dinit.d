@@ -1,0 +1,4 @@
+type      = scripted
+command   = /usr/bin/sysusers
+restart   = false
+waits-for = root-rw

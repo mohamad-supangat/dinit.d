@@ -1,0 +1,4 @@
+#!/bin/sh
+default="$(ip route | awk '/^default/{print ($3!="")+($5!="")}')"
+[ "$default" = 2 ] && exit 0
+exit 1

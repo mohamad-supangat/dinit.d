@@ -1,0 +1,5 @@
+type      = scripted
+command   = /etc/dinit.d/scripts/network
+restart   = false
+waits-for = pseudofs
+waits-for = net-lo

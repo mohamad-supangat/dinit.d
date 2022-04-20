@@ -1,0 +1,4 @@
+type     = scripted
+command  = /etc/dinit.d/scripts/pseudofs
+restart  = false
+options  = starts-rwfs

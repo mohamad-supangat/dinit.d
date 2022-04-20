@@ -1,0 +1,6 @@
+type      = internal
+restart   = false
+waits-for = hostname
+waits-for = hwclock
+waits-for = tmpfiles-dev
+waits-for = modules
