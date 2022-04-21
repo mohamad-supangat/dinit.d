@@ -1,6 +1,6 @@
 type        = internal
 restart     = false
 options     = runs-on-console
-waits-for   = setup
-waits-for   = mount
-waits-for   = misc
+#waits-for   = setup
+#waits-for   = mount
+#waits-for   = misc

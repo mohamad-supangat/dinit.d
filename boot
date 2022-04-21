@@ -1,10 +1,10 @@
 # The primary service
 
-type = internal
+#type = internal
 
-depends-ms = getty
-logfile    = /var/log/dinit/boot.log
+#depends-ms = getty
+#logfile    = /var/log/dinit/boot.log
 
-waits-for = rclocal
-waits-for = loginready
-waits-for.d = boot.d
+#waits-for = rclocal
+#waits-for = loginready
+#waits-for.d = boot.d

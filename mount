@@ -3,4 +3,4 @@ restart    = false
 waits-for  = root-rw
 waits-for  = cgroups
 waits-for  = pseudofs
-waits-for  = tmpfs
+#waits-for  = tmpfs
