@@ -1,0 +1,3 @@
+#!/bin/sh
+[ ! -d /run/mysqld ] && /usr/bin/install -dm0755 -o mysql -g mysql /run/mysqld
+exec /usr/bin/mysqld --user=mysql

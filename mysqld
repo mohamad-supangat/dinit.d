@@ -1,6 +1,5 @@
-# start mysql server
-
-type = process
+type            = process
+command         = /etc/dinit.d/scripts/mysqld
 smooth-recovery = true
-command = sudo mysqld_safe
-logfile = /home/deve/dinit.d/log/mysqld.log
+logfile         = /var/log/dinit/mysqld.log
+waits-for       = loginready

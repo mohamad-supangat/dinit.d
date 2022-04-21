@@ -1,0 +1,5 @@
+type            = process
+command         = /usr/bin/nginx -g "daemon off;"
+smooth-recovery = true
+logfile         = /var/log/dinit/nginx.log
+waits-for       = loginready

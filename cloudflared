@@ -1,4 +1,5 @@
 # cloudflared service
-type = process
-command = cloudflared --config /etc/cloudflared/config.yml tunnel run
-logfile = /var/log/dinit/cloudflared.log
+type 			= process
+command 		= cloudflared --config /etc/cloudflared/config.yml tunnel run
+logfile 		= /var/log/dinit/cloudflared.log
+waits-for 		= loginready
