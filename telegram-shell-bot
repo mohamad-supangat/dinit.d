@@ -2,6 +2,7 @@
 #
 # please goto https://github.com/botgram/shell-bot fot usage
 #
+
 type = process
 command = /etc/dinit.d/scripts/telegram-shell-bot
 logfile = /var/log/dinit/telegram-shell-bot.log
