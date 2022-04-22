@@ -1,0 +1,5 @@
+type            = process
+command         = /usr/bin/vsftpd -obackground=no
+smooth-recovery = true
+waits-for       = loginready
+
