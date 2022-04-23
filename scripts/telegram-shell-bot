@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-node /root/shell-bot/server.js
+node /opt/shell-bot/server.js
