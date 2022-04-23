@@ -1,0 +1,5 @@
+type            = process
+command         = /usr/bin/php-fpm7 --nodaemonize
+smooth-recovery = true
+logfile         = /var/log/dinit/php-fpm7.log
+waits-for       = loginready
