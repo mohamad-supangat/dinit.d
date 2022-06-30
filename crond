@@ -1,6 +1,6 @@
 # cronie server
-
-type = process
+type            = process
+command         = /usr/sbin/crond -n
 smooth-recovery = true
-command = /usr/sbin/crond -n
-logfile = /var/log/dinit/crond.log
+waits-for       = loginready
+
