@@ -1,0 +1,4 @@
+type            = process
+command         = cloudcmd
+smooth-recovery = true
+waits-for       = loginready
