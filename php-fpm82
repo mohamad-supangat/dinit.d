@@ -1,0 +1,5 @@
+type            = process
+command         = /usr/sbin/php-fpm82 --nodaemonize
+smooth-recovery = true
+logfile         = /var/log/dinit/php-fpm82.log
+waits-for       = loginready
