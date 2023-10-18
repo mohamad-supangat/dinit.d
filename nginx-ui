@@ -1,4 +1,4 @@
 type            = process
-command         = /usr/bin/nginx-ui -config /etc/nginx-ui/app.ini
+command         = /usr/local/bin/nginx-ui -config /usr/local/etc/nginx-ui/app.ini
 smooth-recovery = true
 waits-for       = loginready

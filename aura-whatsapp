@@ -1,0 +1,5 @@
+# aura -Whatsapp service
+type 			= process
+command 		= /var/www/whatsapp.aurakomputer.my.id/server/serve
+logfile 		= /var/log/dinit/aura-whatsapp.log
+waits-for 		= loginready
