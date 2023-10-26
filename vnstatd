@@ -1,0 +1,5 @@
+type            = process
+command         = /usr/sbin/vnstatd -n
+smooth-recovery = true
+logfile         = /var/log/dinit/vnstatd.log
+waits-for       = loginready
