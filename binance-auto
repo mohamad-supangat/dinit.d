@@ -1,0 +1,5 @@
+# aura ka
+type 			= process
+command 		= /var/www2/binance-auto/bin/serve
+logfile 		= /var/log/dinit/binance-auto.log
+waits-for 		= loginready
